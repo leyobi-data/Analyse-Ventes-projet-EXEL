@@ -1,17 +1,57 @@
 # Analyse-Ventes-projet-EXEL
 <br>
-<b><h2> 📊Optimisation des performance commerciale: Analyse de données de Ventes( Excel & Power Query)<h2></h2></b><br>
+<b><h1> 📊Analyse des données de ventes – Projet Data Analyst( Excel & Power Query)<h2></h2></b><br>
 <br>
-Dans le cadre d'une simulation d'entretien pour le poste de <b>Data Analyst</b>, j'ai été chargé d'accompagner une Entreprise de distribution d'équipements technologique dans l'analyse de ses performances pluriannuelles.<br>
+<b><h3>Présentation du projet</h3></b><br>
+  <br>
+Ce projet présente une analyse complète d’un jeu de données de ventes afin d’identifier des informations utiles pour la prise de décision.<br>
+  <br>
+<b><h3>Problématique</h3></b><br>
+  <br>
+Les entreprises disposent souvent de grandes quantités de données de vente, mais il est parfois difficile d’en extraire des informations pertinentes.<br>
 <br>
-Face à un jeu de données brut de <b>1000 transactions</b>, l'enjeu était double: assainir une structure de données complexe et transformer ces chiffres en <b>indicateurs de performance</b> actionnables. Ce projet démontre ma capcité à gérer l'intégralité du cycle de donnée de l'ingestion via <b>Power Query</b> à la création de <b>Dashboards intéractifs</b> pour répondre à une problématique de croissance commerciale.<br>
+L’objectif de ce projet est d’analyser les données afin de répondre à plusieurs questions stratégiques liées à la performance commerciale.<br>
+<br>
+<b><h3>Objectifs de l’analyse</h2></b>
+  <br>
+Les principaux objectifs de cette analyse sont :<br>
+<br>
+* analyser la performance globale des ventes<br>
+* identifier les produits les plus performants<br>
+* analyser la performance des ventes par région<br>
+* étudier la performance des commerciaux<br>
+* identifier les segments clients les plus rentables<br>
+  <br>
+<b><h3>Description du dataset</h3></b><br>
+<br>
+Le jeu de données contient <b>1000 transactions</b> de vente avec les variables suivantes :<br>
+<br>
+* Sale_ID<br>
+* Date<br>
+* Region<br>
+* City<br>
+* Salesperson<br>
+* Product<br>
+* Category<br>
+* Quantity<br>
+* Unit_Price<br>
+* Channel<br>
+* Customer_Segment<br>
+<br>
+<b><h3>Outils utilisés</h3></b><br>
+<br>
+* Microsoft Excel<br><br>
+* Power Query<br>
+* Tableaux croisés dynamiques<br>
+* Visualisation de données<br>
+  <br>
 <p align="center">
   <img src="Images\Données_Brutes.png" alt="Vu Exel" width="600">
     <br>
       <b>Image de données Brut via Excel</b>
 </p>
 <br>
-<b><h2>Etape 1: Audit et Préparation des Données (Power Query></h2></b><br>
+<b><h2>Etape 1: Nettoyage et préparation des données(Power Query></h2></b><br>
 <br>
 Avant toute analyse; j'ai procédé à un audit complet du dataset via<b> Power Query></b> pour garantir l'intégrité des resultats. Le processus de <b>Nettoyage et Transfromation</b> s'est articulé autour de deux axes:<br>
 <br>
@@ -49,7 +89,7 @@ Une fois les données assainies, j'ai structuré la phase de transformation pour
 <br>
 <b><h2>1. Analyse Temporelle</h2></b><br>
   *<b>Objectif:</b> Etudier l'évolution de l'activité sur les exercices 2024 et 2025.<br>
-  *<b>Action:</b> Regroupement chronologique par trimestres et mois pour identier les cycles de vente et les périodes de forte croissance. trouverz sur les images les analyses matricielle pour moter l'évolution dans le temps  et l'analyse chronologique pour détecter les pics en fonction des mois<br>
+  *<b>Action:</b> Regroupement chronologique par trimestres et mois pour identifier les cycles de vente et les périodes de forte croissance. trouverz sur les images les analyses matricielle pour motrer l'évolution du <b>Chiffre d'affaire</b> dans le temps  et l'analyse chronologique pour détecter les pics en fonction des mois<br>
   <br>
 <table align="center">
   <tr>
@@ -65,3 +105,60 @@ Une fois les données assainies, j'ai structuré la phase de transformation pour
     </td>
   </tr>
 </table>
+<br>
+<b><h2>2. Analyse Commerciale</h2></b><br>
+Cette section vise à analyser la performance des vendeurs à travers le chiffre d’affaires qu’ils génèrent.
+L’objectif est d’identifier les vendeurs les plus performants et de comparer leur contribution aux ventes totales de l’entreprise.<br>
+<br>
+Pour cela, le chiffre d’affaires a été analysé et comparé entre les différents vendeurs afin de mieux comprendre leur impact sur la performance commerciale globale.<br>
+<p align="center">
+  <img src="Images\Analyse_Commerciale.png" width="600">
+  <br>
+  <b>Graphique et TCD du CE par vendeur</b>
+</p>
+<br>
+<b><h3>Analyse Géographique</h3></b><br>
+Cette section vise à analyser la performance des vendeurs à travers le chiffre d’affaires qu’ils génèrent.
+L’objectif est d’identifier les vendeurs les plus performants et de comparer leur contribution aux ventes totales de l’entreprise.<br>
+<br>
+Pour cela, le chiffre d’affaires a été analysé et comparé entre les différents vendeurs afin de mieux comprendre leur impact sur la performance commerciale globale.<br>
+<p align="center">
+  <img src="Images\Graph_Vente_Region.png" width="600">
+  <br>
+  <b>Graphique et TCD du CA en fonction des Regions</b>
+</p>
+<br>
+<b><h4>Analyse par PRODUIT</h4></b><br>
+Cette section vise à analyser la performance des différents produits en fonction du chiffre d’affaires généré.
+L’objectif est d’identifier les produits les plus performants ainsi que ceux qui contribuent le plus aux ventes de l’entreprise.<br>
+<br>
+Cette analyse permet de mieux comprendre la contribution de chaque produit à la performance commerciale globale et d’identifier les produits à fort potentiel.<br>
+<p align="center">
+  <img src="Images\Grap_Vente_Produit.png" width="600">
+  <br>
+  <b>Graphique et TCD du CA par PRODUIT</b>
+  <br>
+</p>
+<br>
+<b><h2> Analyse EPLORATIVE</h2></b><br>
+<br>
+Cette section présente une analyse exploratoire des données de vente afin de mieux comprendre la structure du dataset et d’identifier les principaux facteurs influençant la performance commerciale.<br>
+<br>
+L’objectif est d’examiner plusieurs dimensions des ventes, notamment la performance globale, la contribution des produits, la rentabilité des villes, la performance des commerciaux, l’importance des segments clients ainsi que l’efficacité des différents canaux de vente.<br>
+<br>
+Cette analyse permet de dégager une première compréhension des tendances présentes dans les données et de mettre en évidence les principaux leviers de performance commerciale.<br>
+<br>
+<b><h3>Performance Global des Ventes</h3></b><br>
+  <br>
+Cette analyse présente la contribution mensuelle au chiffre d’affaires annuel pour les années 2024 et 2025.
+L’objectif est de comprendre la répartition des ventes au cours de l’année et d’identifier les périodes qui génèrent la plus grande part du chiffre d’affaires.<br>
+<br>
+Le tableau croisé dynamique et le graphique permettent de visualiser la part du chiffre d’affaires mensuel par rapport au chiffre d’affaires annuel, afin de mettre en évidence les variations et les tendances entre les deux années.<br>
+<p align="center">
+ <img src="Images\CA_GLOBAL_par_AN.png" width="600">
+   <br>
+   <b>Graphique des performances annuelle</b>
+</p>
+<br>
+<b><h3>2. </h3></b>
+   
