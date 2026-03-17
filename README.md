@@ -148,7 +148,7 @@ L’objectif est d’examiner plusieurs dimensions des ventes, notamment la perf
 <br>
 Cette analyse permet de dégager une première compréhension des tendances présentes dans les données et de mettre en évidence les principaux leviers de performance commerciale.<br>
 <br>
-<b><h3>Performance Global des Ventes</h3></b><br>
+<b><h3>1. Performance Global des Ventes</h3></b><br>
   <br>
 Cette analyse présente la contribution mensuelle au chiffre d’affaires annuel pour les années 2024 et 2025.
 L’objectif est de comprendre la répartition des ventes au cours de l’année et d’identifier les périodes qui génèrent la plus grande part du chiffre d’affaires.<br>
@@ -160,5 +160,46 @@ Le tableau croisé dynamique et le graphique permettent de visualiser la part du
    <b>Graphique des performances annuelle</b>
 </p>
 <br>
-<b><h3>2. </h3></b>
-   
+<b><h3>2. Les Produits les plus performants </h3></b><br>
+<br>
+comprendre quels produits dominent le marché est crutial pour toute prise de décision basée sur l'analyse de données. A travers cette implémentation , je cherche à transformer des données brutes en connaissance actionnables pour prioriser les investissements et maximiser la rentabilité globale.<br>
+<p align="center">
+  <img src="Images\Perf_Produit.png" width="600">
+  <br>
+    <b>Performance des Produits</b>
+</p>
+  <br>
+  <b><h3>3. Les Villes les plus performances</h></b><br>
+  Cette étape de l'analyse vise à isoler les zones géographiques les plus rentables .En corrélant le volume du CA ( chiffre d'affaire) par Ville. L'objectif est de cartographier les centres de profits majeurs.<br>
+  Cette analyse est crutiale pour prioriser les zones de stockage ou les circuits de livraisons.<br>
+  <p align="center">
+    <img src="Images\Perf_Regions.png" width="600">
+      <br>
+      <b>Performantion Géographique</b>
+  </p>
+  <br>
+  <b><h3>4. Performance des Commerciaux</h3></b><br>
+  Cette analyse vise à comprendre comprendre la dynamique humaine dèrrière les chiffres. En segmentant par agent, nous cherchons à identifier les modèles de réussites.<br>
+  <p align="center">
+    <img src="Images\Perf_Vendeurs.png" width="600">
+    <br>
+    <b>Performance en fonction des vendeurs</b>
+  </p>
+    <br>
+    <b><h3>5. Les segments client les plus performants</h3></b><br>
+Cette section vise à catégoriser la base client pour identifier les groupes les plus rentables.En analysant la performance par segment, l'objectif est de comprendre quels profils tirent la croissance de l'activité .
+<p align="center">
+  <img src="Images\Perf_Segment.png" width="600">
+  <br>
+  <b>Performance par Segment Client</b>
+</p>
+<br>
+<b><h3>6. Les Canaux de vente les plus Performants</h3></b><br>
+Cette section évalue l'éfficacité de nos differents points de contact avec le client. En comparant le <b>chiffre d'affaire</b> et <b>le volume de transaction</b> par canal; l'objectif est d'identifier les vecteurs de vente les plus rentables.
+  <p align="center">
+    <img src="Images\Perf_Canal.png" width="600">
+      <br>
+    <b>Performance par CANAL de VENTE</b>
+  </p>
+  <br>
+  
