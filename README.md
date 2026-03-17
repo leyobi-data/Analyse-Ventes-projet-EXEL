@@ -202,4 +202,42 @@ Cette section évalue l'éfficacité de nos differents points de contact avec le
     <b>Performance par CANAL de VENTE</b>
   </p>
   <br>
-  
+  <b><h2>DASHBOARD</h2></b>
+  Bienvenu sur votre espace de pilotage. Cet outil a été conçu pour offrir une <b>visibilité complète</b> sur nos opérations en cours. On a utiliser des filtres pour affiner nos données et optimiser notre flux de travail.<br>
+  ces deux figures nous montre l'interface principale de ce tableau de bord.<br>
+  <br>
+  <table align="center">
+      <tr>
+          <td align="center">
+              <img src="Images\Dashboard1.png" width="300">
+            <br>
+            <b>Tableau donnant les infos sur l'année 2024 </b>
+          </td>
+          <td align="center">
+            <img src="Images\Dashboard2.png" width="300">
+            <br>
+            <b>Partie basse de l'interface montrant les performance des diffrents segment sur l'année 2024</b>
+          </td>
+      </tr>
+  </table>
+      </tr>
+  <br>
+  Les segments <b>Années</b> et <b>Regions</b> placés à gauche de la première image rendent le tableau de bord interactif car en choisissant (cliquant) sur une de leur valeur on obtient un chagement imédiat des données du tableau ce qui le rend intéractif. prenons l'exemple de l'année 2025 et regardons les resultats:<br>
+  <table align="center">
+    <tr>
+      <td align="center">
+          <img src="Images\Dashboard3.png" width="300">
+          <br>
+        <b>Image montrant la sélection 2025</b>
+      </td>
+      <td align="center">
+        <img src="Images\Dashboard4.png" width="300">
+        <br>
+        <b>image montrant les KPI de l'année choisi à gauche</b>
+      </td>
+    </tr>
+  </table>
+  <br>
+  Biensur le tableau de bord nous donne plusieurs autres choix , par exemple si on veut voir les KPI d'une ou plusieurs villes chois sur une ou plusieurs années il suffit de faire la sélection sur le segment des <b>REGIONS</b> à gauche on aura le resultat voulu.<br>
+  <br>
+J'insère le fichier EXCEL pour permettre de faire l'expérience en temps réel 
