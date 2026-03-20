@@ -240,4 +240,5 @@ Cette section évalue l'éfficacité de nos differents points de contact avec le
   <br>
   Biensur le tableau de bord nous donne plusieurs autres choix , par exemple si on veut voir les KPI d'une ou plusieurs villes chois sur une ou plusieurs années il suffit de faire la sélection sur le segment des <b>REGIONS</b> à gauche on aura le resultat voulu.<br>
   <br>
-J'insère le fichier EXCEL pour permettre de faire l'expérience en temps réel 
+J'insère le fichier EXCEL pour permettre de faire l'expérience en temps réel . <br>
+  
