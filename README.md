@@ -1,4 +1,4 @@
-# Analyse-Ventes-projet-EXEL
+# Analyse-Ventes-projet-EXCEL
 <br>
 <b><h1> 📊Analyse des données de ventes – Projet Data Analyst( Excel & Power Query)<h2></h2></b><br>
 <br>
